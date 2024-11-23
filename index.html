@@ -11,7 +11,7 @@
             h1{
                 color: red;
             }
-        <style>
+        </style>
 </head>
 <body>
     <h1>Oh maw gawd</h1>
@@ -20,7 +20,7 @@
         <blockquote>"Eat a pizza and have a glass of wine at 7 am while in track pants. Nobody cares.” —Anonymous 93"
             <button onclick="changeQuote()">Change Quote</button>
 
-        <scipt>
+        <script>
             var index = 0;
 
             function changeQuote(){
@@ -31,8 +31,14 @@
                     `"ehe"` - Venti
                 ];
 
-                var bloackquote = <document class="querySelector"(blackquote")
+                var bloackquote = <document class="querySelector"(backquote");
+                blockquote.innerHTML = quotes(index);
+
+                index++;
+                if (index >= 4) {
+                    index = 0;
+                }
             }
-        </script
+        </script>
     </body>
 </html>
